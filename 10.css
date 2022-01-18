@@ -1,0 +1,38 @@
+.align{
+    width:960px;
+    margin: auto;
+}
+
+.personalinfo{
+    border-right : 10px green solid;
+    background-color: rgb(245, 230, 212);
+}
+
+#google{
+    float: right;
+    width: 256px;
+    height: 128px;
+}
+
+#sub{
+    background-color: gold;
+}
+
+#message{
+    background-color: rgb(245, 230, 212);
+    background-image: url('download.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100px 100px;
+}
+
+#pi{
+    background-color: rgb(241, 66, 66);
+}
+
+#head{
+    background-color: rgb(46, 121, 206);
+}
+
+
+

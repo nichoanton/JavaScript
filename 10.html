@@ -1,0 +1,63 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="10.css">
+    <title>Document</title>
+</head>
+<body>
+    <h1 style="text-align: center;" id="head"><i>FILL THE FORM</i></h1>
+    <form action="/save_in_domain" target="_self" autocomplete="on">
+        <div class="align"> 
+            <fieldset class="personalinfo">
+                <legend>Personal info</legend>
+            <label for="fname" id="pi"><strong>First</strong> name:</label><br>
+            <input type="text" name="fname" id="fname" style="border-radius: 1cm;" required><br>
+            <label for="lname" id="pi"><strong>Last</strong> name:</label><br>
+            <input type="text" name="lname" id="fname" style="border-radius: 1cm;" required><br>
+            <br>
+            <label for="dob" id="pi"><strong>Date of birth:</strong></label><br>
+            <input type="date" name="dob" id="dob" style="border-radius: 1cm;"><br>
+            <br>
+            <label for="email" id="pi">E-mail:</label>
+            <input type="text" name="email" id="email" required><br>
+            <br>      
+            <div id="pi">Are you over <strong>25</strong>?</div>
+            <input type="radio" id="yes" name="eligibility">
+            <label>YES</label><br>
+            <input type="radio" id="no" name="eligibility">
+            <label">NO</label><br>
+            </fieldset>
+            <br>
+            <div id="sub">Id's that you're submitting.</div>
+            <input type="checkbox" id="passport">
+            <label>PASSPORT</label><br>
+            <input type="checkbox" id="driverslicense">
+            <label>DRIVERS LICENSE</label><br>
+            <input type="checkbox" id="voterid">
+            <label>VOTER ID</label><br>
+            <br>
+            <label for="graduation" id="sub">Level of <strong>education</strong>.</label>
+            <select name="education" id="education">
+                <option value="Bachelors">Bachelor's degree</option>
+                <option value="Masters">Masters's degree</option>
+                <option value="Bachelors">Doctorate degree</option>
+                <option value="NaN">Prefer not to answer</option>
+            </select><br>
+            <br>
+            <img src="google.gif" id="google"></img>
+            <label for="message" id="sub">Why did you choose our organization?</label><br>
+            <textarea name="message" placeholder="WHY US?" id="message" cols="40" rows="10""></textarea><br>
+            <br>
+            <label for="file" id="sub">Upload resume:</label>
+            <input type="file" name="resume" id="resume"><br>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset" value="Clear">
+        </div> 
+    </form>
+
+    <script src="10.js"></script>
+</body>
+</html>
